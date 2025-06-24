@@ -73,7 +73,7 @@ def summarize_city_titles(input_filename, output_filename="city_summary.csv"):
                     city_dict[city][title] += 1
 
     except IOError as e:
-        print(f"❌ Error reading file: {e}")
+        print(f"Error reading file: {e}")
         return
 
     # Write the summarized output
