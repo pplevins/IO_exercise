@@ -1,11 +1,6 @@
 import re
 
 
-def read_txt(filename):
-    with open(filename, 'r') as f:
-        return f.read()
-
-
 def write_txt(filename, text):
     with open(filename, 'w') as f:
         f.write(text)
